@@ -1,0 +1,58 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+   margin: 0;
+   font-family: 'Geologica', sans-serif;
+   display: flex;
+   flex-direction: column; 
+   justify-content: center;
+   align-items: center; 
+   min-height: 100vh;
+   background-color: black;
+}
+
+header {
+font-size: 4vmin;
+color: rgba(227, 195, 13, 0.752);
+letter-spacing: 1vmin;
+}
+
+header:hover { 
+font-size: 5vmin;
+}
+
+#cards {
+display: grid;
+grid-template-columns: repeat(4, 15vmin);
+grid-template-rows: repeat(3, 22vmin);
+margin: -4vmin 0;
+padding: 10vmin;
+gap: 2vmin;
+}
+
+#cards > div {
+display: flex;
+align-items: center;
+justify-content: center;
+border: 0.1vmin solid white;
+background-color: gold;
+height: 22vmin;
+width: 15vmin;
+}
+
+button {
+font-size: 1vmin;
+margin-top: 2vmin;
+padding: 1vmin;
+border-radius: 3vmin;
+border:0.1vmin solid rgba(227, 195, 13, 0.752) /* Leaving ; off to get the styling of PLAY AGAIN button that I want*/
+color: rgba(227, 195, 13, 0.752);
+}
+
+button:hover {
+font-size: 2vmin;
+color: whitesmoke;
+background-color: black;
+}
