@@ -1,9 +1,3 @@
-// Actions
-//Card is hidden 
-//Card flips/becomes visible 
-//Card flips/back
-//Winner declared
-//Matching set
 
 // Actors
 //Cards
