@@ -2,7 +2,7 @@
 box-sizing: border-box;
 }
 
-body {
+body {   /*Adjusted body */
    margin: 0;
    font-family: 'Geologica', sans-serif;
    display: flex;
@@ -13,17 +13,17 @@ body {
    background-color: black;
 }
 
-header {
+header {  /*Adjsuted header size color and letter spacing  */
 font-size: 4vmin;
 color: rgba(227, 195, 13, 0.752);
 letter-spacing: 1vmin;
 }
 
-header:hover { 
+header:hover { /* Added hover effect to header and increased size */
 font-size: 5vmin;
 }
 
-#cards {
+#cards { /*Used cards as a container and made cards layout with grid  */
 display: grid;
 grid-template-columns: repeat(4, 15vmin);
 grid-template-rows: repeat(3, 22vmin);
@@ -32,7 +32,7 @@ padding: 10vmin;
 gap: 2vmin;
 }
 
-#cards > div {
+#cards > div {  /*Adjusted all cards to change height width and positioning */
 display: flex;
 align-items: center;
 justify-content: center;
@@ -42,7 +42,7 @@ height: 22vmin;
 width: 15vmin;
 }
 
-button {
+button { /*Styled button */
 font-size: 1vmin;
 margin-top: 2vmin;
 padding: 1vmin;
@@ -51,7 +51,7 @@ border:0.1vmin solid rgba(227, 195, 13, 0.752) /* Leaving ; off to get the styli
 color: rgba(227, 195, 13, 0.752);
 }
 
-button:hover {
+button:hover { /*Added hover effect on button to change font and color */
 font-size: 2vmin;
 color: whitesmoke;
 background-color: black;
